@@ -1,0 +1,36 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Users\legion\AppData\Roaming\npm\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.8.1
+2 info using node@v20.14.0
+3 silly config load:file:C:\Users\legion\AppData\Roaming\npm\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\legion\Documents\react-donice\.npmrc
+5 silly config load:file:C:\Users\legion\.npmrc
+6 silly config load:file:C:\Users\legion\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm install https://github.com/baseui/accordion.git
+8 verbose argv "install" "https://github.com/baseui/accordion.git" "--save" "--cache" "false"
+9 verbose logfile logs-max:10 dir:C:\Users\legion\Documents\react-donice\false\_logs\2024-06-05T17_15_44_217Z-
+10 verbose logfile C:\Users\legion\Documents\react-donice\false\_logs\2024-06-05T17_15_44_217Z-debug-0.log
+11 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+12 silly logfile done cleaning log files
+13 http fetch GET 200 https://registry.npmjs.org/npm 2067ms
+14 verbose stack Error: An unknown git error occurred
+14 verbose stack     at makeError (C:\Users\legion\AppData\Roaming\npm\node_modules\npm\node_modules\@npmcli\git\lib\make-error.js:28:13)
+14 verbose stack     at C:\Users\legion\AppData\Roaming\npm\node_modules\npm\node_modules\@npmcli\git\lib\spawn.js:37:26
+14 verbose stack     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+15 error code 128
+16 error An unknown git error occurred
+17 error command git --no-replace-objects ls-remote ssh://git@github.com/baseui/accordion.git
+18 error git@github.com: Permission denied (publickey).
+18 error fatal: Could not read from remote repository.
+18 error
+18 error Please make sure you have the correct access rights
+18 error and the repository exists.
+19 silly unfinished npm timer reify 1717607744725
+20 silly unfinished npm timer reify:loadTrees 1717607744775
+21 silly unfinished npm timer idealTree:userRequests 1717607745358
+22 verbose cwd C:\Users\legion\Documents\react-donice
+23 verbose os Windows_NT 10.0.19045
+24 verbose node v20.14.0
+25 verbose npm  v10.8.1
+26 verbose exit 128
+27 verbose code 128
+28 error A complete log of this run can be found in: C:\Users\legion\Documents\react-donice\false\_logs\2024-06-05T17_15_44_217Z-debug-0.log
