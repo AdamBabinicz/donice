@@ -8,7 +8,7 @@ const CardContainer = styled.div`
   height: 630px;
 
   @media (max-width: 768px) {
-    height: 590px;
+    height: max-content;
   }
 `;
 
