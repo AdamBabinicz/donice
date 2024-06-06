@@ -153,6 +153,7 @@ const CloseButton = styled(FaTimes)`
   @media (max-width: 480px) {
     top: 6px;
     right: 6px;
+    font-size: 2rem;
   }
 `;
 
