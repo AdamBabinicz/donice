@@ -14,7 +14,6 @@ const Overlay = styled.div`
   justify-content: center;
   align-items: center;
   z-index: 1000;
-  overflow-y: auto;
 `;
 
 const FormContainer = styled.div`
@@ -31,11 +30,15 @@ const FormContainer = styled.div`
   @media (max-width: 768px) {
     padding: 15px;
     font-size: 14px;
+    height: 90%; /* Make the container take 90% of the viewport height */
+    overflow-y: auto; /* Enable vertical scrolling */
   }
 
   @media (max-width: 480px) {
     padding: 10px;
     font-size: 12px;
+    height: 90%; /* Make the container take 90% of the viewport height */
+    overflow-y: auto; /* Enable vertical scrolling */
   }
 `;
 
