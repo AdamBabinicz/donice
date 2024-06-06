@@ -11,7 +11,7 @@ export const GlobalStyles = createGlobalStyle`
     margin: 0;
     padding: 0;
     align-items: center;
-    background: ${({ theme }) => {
+    background-color: ${({ theme }) => {
       console.log(theme.body); // Sprawdź, czy temat jest prawidłowo przekazywany
       return theme.body;
     }};
