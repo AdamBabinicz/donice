@@ -158,7 +158,7 @@ const CloseButton = styled(FaTimes)`
 `;
 
 const FormSection = styled.div`
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
 
   @media (max-width: 768px) {
     margin-bottom: 15px;
