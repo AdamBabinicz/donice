@@ -30,16 +30,41 @@ const FormContainer = styled.div`
 
   @media (max-width: 768px) {
     padding: 15px;
+    font-size: 14px;
+  }
+
+  @media (max-width: 480px) {
+    padding: 10px;
+    font-size: 12px;
   }
 `;
 
 const Title = styled.h2`
-  margin-bottom: 10px;
+  margin-bottom: 20px;
+
+  @media (max-width: 768px) {
+    margin-bottom: 15px;
+    font-size: 20px;
+  }
+
+  @media (max-width: 480px) {
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
 `;
 
 const Subtitle = styled.h3`
-  /* margin: 20px 0 10px; */
   margin: 5px 0;
+
+  @media (max-width: 768px) {
+    margin: 5px 0;
+    font-size: 18px;
+  }
+
+  @media (max-width: 480px) {
+    margin: 5px 0;
+    font-size: 16px;
+  }
 `;
 
 const Input = styled.input`
@@ -50,6 +75,14 @@ const Input = styled.input`
   border-radius: 4px;
   background: ${({ theme }) => theme.highlight};
   color: ${({ theme }) => theme.text};
+
+  @media (max-width: 768px) {
+    padding: 8px;
+  }
+
+  @media (max-width: 480px) {
+    padding: 6px;
+  }
 `;
 
 const GroupedInput = styled.div`
@@ -64,6 +97,13 @@ const GroupedInput = styled.div`
 
   @media (max-width: 768px) {
     ${Input} {
+      flex: 1 0 48%;
+      margin: 5px 0;
+    }
+  }
+
+  @media (max-width: 480px) {
+    ${Input} {
       flex: 1 0 100%;
       margin: 5px 0;
     }
@@ -73,14 +113,25 @@ const GroupedInput = styled.div`
 const Button = styled.button`
   width: 100%;
   padding: 10px;
-  background: ${({ theme }) => theme.text};
+  background-color: ${({ theme }) => theme.text};
   color: ${({ theme }) => theme.body};
   border: none;
   border-radius: 4px;
   cursor: pointer;
   margin-top: 20px;
+
   &:hover {
-    background: ${({ theme }) => theme.secondaryText};
+    background-color: ${({ theme }) => theme.secondaryText};
+  }
+
+  @media (max-width: 768px) {
+    padding: 8px;
+    margin-top: 15px;
+  }
+
+  @media (max-width: 480px) {
+    padding: 6px;
+    margin-top: 10px;
   }
 `;
 
@@ -90,10 +141,28 @@ const CloseButton = styled(FaTimes)`
   right: 10px;
   cursor: pointer;
   color: ${({ theme }) => theme.text};
+
+  @media (max-width: 768px) {
+    top: 8px;
+    right: 8px;
+  }
+
+  @media (max-width: 480px) {
+    top: 6px;
+    right: 6px;
+  }
 `;
 
 const FormSection = styled.div`
-  margin-bottom: 10px;
+  margin-bottom: 20px;
+
+  @media (max-width: 768px) {
+    margin-bottom: 15px;
+  }
+
+  @media (max-width: 480px) {
+    margin-bottom: 10px;
+  }
 `;
 
 const Form = ({ onClose, theme }) => {
