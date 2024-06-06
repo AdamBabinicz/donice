@@ -5,7 +5,7 @@ import { OverlayTrigger, Tooltip } from "react-bootstrap";
 class SoftwareSkill extends React.Component {
   render() {
     return (
-      <div>
+      <div className="software">
         <div className="software-skills-main-div">
           <ul className="dev-icons">
             {this.props.logos.map((logo, index) => {

@@ -21,3 +21,16 @@
 .software-skill-inline > i:hover {
   color: #645beb;
 }
+
+@media (max-width: 768px) {
+  .software {
+    display: flex;
+    justify-content: center;
+  }
+  .skills-text-div {
+    margin: 0;
+  }
+  .skills-text-div:nth-child(even) {
+    margin-right: 0;
+  }
+}

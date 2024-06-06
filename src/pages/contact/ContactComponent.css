@@ -248,6 +248,9 @@ video {
     display: flex;
     justify-content: center;
   }
+  .contact-heading-img-div img {
+    width: 100%;
+  }
   .contact-header-detail-text {
     font-size: 16px;
     margin-left: 0px;
