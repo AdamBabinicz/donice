@@ -1,5 +1,5 @@
 import React from "react";
-import { fontawesomeicon } from "@fortawesome/react-fontawesome";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTimes } from "@fortawesome/free-solid-svg-icons";
 import styled, { keyframes } from "styled-components";
 
@@ -101,7 +101,7 @@ const Modal = ({ show, onClose, title, image, text, theme }) => {
     <ModalOverlay>
       <ModalContent theme={theme}>
         <CloseButton theme={theme} onClick={onClose}>
-          <fontawesomeicon icon={faTimes} />
+          <FontAwesomeIcon icon={faTimes} />
         </CloseButton>
         <Title>{title}</Title>
         {image && <Image src={image} alt="Modal" />}
