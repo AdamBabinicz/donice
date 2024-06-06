@@ -26,24 +26,24 @@ export default function TopButton({ theme }) {
     /* For the button */
     const topButton = document.getElementById("topButton");
     topButton.style.color = color;
-    topButton.style.backgroundColor = bgColor;
+    topButton.style.backgroundcolor = bgColor;
 
     /* For arrow icon */
     const arrow = document.getElementById("arrow");
     arrow.style.color = color;
-    arrow.style.backgroundColor = bgColor;
+    arrow.style.backgroundcolor = bgColor;
   };
 
   const onMouseLeave = (color, bgColor) => {
     /* For the button */
     const topButton = document.getElementById("topButton");
     topButton.style.color = color;
-    topButton.style.backgroundColor = bgColor;
+    topButton.style.backgroundcolor = bgColor;
 
     /* For arrow icon */
     const arrow = document.getElementById("arrow");
     arrow.style.color = color;
-    arrow.style.backgroundColor = bgColor;
+    arrow.style.backgroundcolor = bgColor;
   };
 
   return (
@@ -52,7 +52,7 @@ export default function TopButton({ theme }) {
       id="topButton"
       style={{
         color: theme.body,
-        backgroundColor: theme.text,
+        backgroundcolor: theme.text,
         border: `solid 1px ${theme.text}`,
       }}
       title="Go up"

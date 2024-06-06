@@ -11,8 +11,8 @@ class IssueChart extends Component {
       datasets: [
         {
           data: [IssueData["open"], IssueData["closed"]],
-          backgroundColor: ["#28a745", "#d73a49"],
-          hoverBackgroundColor: ["#28a745dd", "#d73a49dd"],
+          backgroundcolor: ["#28a745", "#d73a49"],
+          hoverbackgroundcolor: ["#28a745dd", "#d73a49dd"],
         },
       ],
     };

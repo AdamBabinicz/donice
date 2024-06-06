@@ -29,44 +29,44 @@ const socialMediaLinks = [
   // {
   //   name: "Github",
   //   link: "https://github.com/ashutosh1919",
-  //   fontAwesomeIcon: "fa-github",
-  //   backgroundColor: "#181717",
+  //   fontawesomeicon: "fa-github",
+  //   backgroundcolor: "#181717",
   // },
   // {
   //   name: "LinkedIn",
   //   link: "https://www.linkedin.com/in/ashutosh-hathidara-88710b138/",
-  //   fontAwesomeIcon: "fa-linkedin-in",
-  //   backgroundColor: "#0077B5",
+  //   fontawesomeicon: "fa-linkedin-in",
+  //   backgroundcolor: "#0077B5",
   // },
   {
     name: "YouTube",
     link: "https://www.youtube.com",
-    fontAwesomeIcon: "fa-youtube", // Reference https://fontawesome.com/icons/youtube?style=brands
-    backgroundColor: "#FF0000", // Reference https://simpleicons.org/?q=youtube
+    fontawesomeicon: "fa-youtube", // Reference https://fontawesome.com/icons/youtube?style=brands
+    backgroundcolor: "#FF0000", // Reference https://simpleicons.org/?q=youtube
   },
   {
     name: "Gmail",
     link: "mailto:gmail@gmail.com",
-    fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
-    backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
+    fontawesomeicon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
+    backgroundcolor: "#D14836", // Reference https://simpleicons.org/?q=gmail
   },
   {
     name: "Twitter",
     link: "https://twitter.com",
-    fontAwesomeIcon: "fa-twitter", // Reference https://fontawesome.com/icons/twitter?style=brands
-    backgroundColor: "#1DA1F2", // Reference https://simpleicons.org/?q=twitter
+    fontawesomeicon: "fa-twitter", // Reference https://fontawesome.com/icons/twitter?style=brands
+    backgroundcolor: "#1DA1F2", // Reference https://simpleicons.org/?q=twitter
   },
   {
     name: "Facebook",
     link: "https://www.facebook.com/profile.php?id=61553554658313",
-    fontAwesomeIcon: "fa-facebook-f", // Reference https://fontawesome.com/icons/facebook-f?style=brands
-    backgroundColor: "#1877F2", // Reference https://simpleicons.org/?q=facebook
+    fontawesomeicon: "fa-facebook-f", // Reference https://fontawesome.com/icons/facebook-f?style=brands
+    backgroundcolor: "#1877F2", // Reference https://simpleicons.org/?q=facebook
   },
   {
     name: "Instagram",
     link: "https://www.instagram.com",
-    fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
-    backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
+    fontawesomeicon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
+    backgroundcolor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
   },
 ];
 
@@ -85,14 +85,14 @@ const skills = {
           skillName: "Różne wymiary",
           fontAwesomeClassname: "simple-icons:codesandbox",
           style: {
-            backgroundColor: "transparent",
+            backgroundcolor: "transparent",
           },
         },
         {
           skillName: "Stylowe wzory",
           fontAwesomeClassname: "simple-icons:hackthebox",
           style: {
-            backgroundColor: "transparent",
+            backgroundcolor: "transparent",
             // color: "#D00000",
           },
         },
@@ -100,7 +100,7 @@ const skills = {
           skillName: "Minimalizm i prostota",
           fontAwesomeClassname: "simple-icons:roblox",
           style: {
-            backgroundColor: "transparent",
+            backgroundcolor: "transparent",
           },
         },
       ],
@@ -140,7 +140,7 @@ const skills = {
         //   skillName: "JavaScript",
         //   fontAwesomeClassname: "simple-icons:javascript",
         //   style: {
-        //     backgroundColor: "#000000",
+        //     backgroundcolor: "#000000",
         //     color: "#F7DF1E",
         //   },
         // },

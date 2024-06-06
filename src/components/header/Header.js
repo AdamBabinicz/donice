@@ -7,12 +7,12 @@ import img from "../../assests/images/logo.png";
 
 const onMouseEnter = (event, color) => {
   const el = event.target;
-  el.style.backgroundColor = color;
+  el.style.backgroundcolor = color;
 };
 
 const onMouseOut = (event) => {
   const el = event.target;
-  el.style.backgroundColor = "transparent";
+  el.style.backgroundcolor = "transparent";
 };
 
 class Header extends Component {
@@ -36,7 +36,7 @@ class Header extends Component {
             <label className="menu-icon" htmlFor="menu-btn">
               <span className="navicon"></span>
             </label>
-            <ul className="menu" style={{ backgroundColor: theme.body }}>
+            <ul className="menu" style={{ backgroundcolor: theme.body }}>
               <li>
                 <NavLink
                   to="/home"

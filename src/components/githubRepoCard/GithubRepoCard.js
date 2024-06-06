@@ -16,7 +16,7 @@ export default function GithubRepoCard({ repo, theme }) {
           className="repo-card-div"
           key={repo.id}
           onClick={() => openRepoinNewTab(repo.url)}
-          style={{ backgroundColor: theme.highlight }}
+          style={{ backgroundcolor: theme.highlight }}
         >
           <div className="repo-name-div">
             <svg
@@ -54,7 +54,7 @@ export default function GithubRepoCard({ repo, theme }) {
           {/* <div className="repo-stats">
           <div className="repo-left-stat">
             <span>
-              <div className="language-color" style={{ backgroundColor: repo.node.primaryLanguage.color }}></div>
+              <div className="language-color" style={{ backgroundcolor: repo.node.primaryLanguage.color }}></div>
               <p>{repo.node.primaryLanguage.name}</p>
             </span>
             <span>

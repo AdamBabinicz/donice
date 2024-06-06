@@ -18,7 +18,7 @@ class CertificationCard extends Component {
               <div className="content-overlay"></div>
               <div
                 className="cert-header"
-                style={{ backgroundColor: certificate.color_code }}
+                style={{ backgroundcolor: certificate.color_code }}
               >
                 <img
                   className="logo_img"

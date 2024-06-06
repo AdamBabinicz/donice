@@ -69,7 +69,7 @@ class PullRequestCard extends Component {
         <div
           className="pull-request-card"
           style={{
-            backgroundColor: bgColor,
+            backgroundcolor: bgColor,
             border: `1px solid ${iconPR.style.color}`,
           }}
         >
@@ -97,7 +97,7 @@ class PullRequestCard extends Component {
             <div className="files-changed-header">
               <p
                 className="files-changed-text"
-                style={{ backgroundColor: iconPR.style.color }}
+                style={{ backgroundcolor: iconPR.style.color }}
               >
                 {pullRequest["changedFiles"]}
               </p>

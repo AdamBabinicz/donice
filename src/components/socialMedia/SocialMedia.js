@@ -5,7 +5,7 @@ import styled from "styled-components";
 
 const IconWrapper = styled.span`
   i {
-    background: ${(props) => props.backgroundColor};
+    background: ${(props) => props.backgroundcolor};
   }
   &:hover i {
     background: ${({ theme }) => theme.text};
@@ -26,7 +26,7 @@ export default function socialMedia(props) {
           rel="noopener noreferrer"
         >
           <IconWrapper {...link} {...props}>
-            <i className={`fab ${link.fontAwesomeIcon}`}></i>
+            <i className={`fab ${link.fontawesomeicon}`}></i>
           </IconWrapper>
           {/* <span></span> */}
         </a>

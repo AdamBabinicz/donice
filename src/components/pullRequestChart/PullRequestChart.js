@@ -15,8 +15,8 @@ class PullRequestChart extends Component {
             PullRequestData["merged"],
             PullRequestData["closed"],
           ],
-          backgroundColor: ["#28a745", "#6f42c1", "#d73a49"],
-          hoverBackgroundColor: ["#28a745dd", "#6f42c1dd", "#d73a49dd"],
+          backgroundcolor: ["#28a745", "#6f42c1", "#d73a49"],
+          hoverbackgroundcolor: ["#28a745dd", "#6f42c1dd", "#d73a49dd"],
         },
       ],
     };

@@ -25,8 +25,8 @@ const NavigationContainer = styled.div`
 const Navigation = styled.ul`
   display: ${({ isopen }) => (isopen ? "flex" : "none")};
   flex-direction: column;
-  align-items: center; /* Wyśrodkuj linki poziomo */
-  justify-content: center; /* Wyśrodkuj linki pionowo */
+  align-items: center;
+  justify-content: center;
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -48,8 +48,8 @@ const Navigation = styled.ul`
     height: auto;
     box-shadow: none;
     animation: none;
-    justify-content: flex-end; /* Linki poziome po prawej stronie */
-    padding-top: 2rem; /* Zwiększony padding od góry */
+    justify-content: flex-end;
+    padding-top: 2rem;
   }
 `;
 
@@ -132,46 +132,24 @@ const NavigationComponent = ({ theme }) => {
             </span>
           </NavLink>
           <NavigationItem>
-            <NavLink to="/" exact activeClassName="active" onClick={closeMenu}>
+            <NavLink
+              to="/"
+              exact="true"
+              activeclassname="active"
+              onClick={closeMenu}
+            >
               Start
             </NavLink>
           </NavigationItem>
-          {/* <NavigationItem>
-            <NavLink
-              to="/experience"
-              activeClassName="active"
-              onClick={closeMenu}
-            >
-              Experience
-            </NavLink>
-          </NavigationItem>
           <NavigationItem>
-            <NavLink
-              to="/education"
-              activeClassName="active"
-              onClick={closeMenu}
-            >
-              Education
-            </NavLink>
-          </NavigationItem>
-          <NavigationItem>
-            <NavLink
-              to="/opensource"
-              activeClassName="active"
-              onClick={closeMenu}
-            >
-              Open Source
-            </NavLink>
-          </NavigationItem> */}
-          <NavigationItem>
-            <NavLink to="/contact" activeClassName="active" onClick={closeMenu}>
+            <NavLink to="/contact" activeclassname="active" onClick={closeMenu}>
               Kontakt
             </NavLink>
           </NavigationItem>
           <NavigationItem>
             <NavLink
               to="/projects"
-              activeClassName="active"
+              activeclassname="active"
               onClick={closeMenu}
             >
               Fotodonice
