@@ -15,6 +15,8 @@ class Projects extends Component {
     this.state = {
       showMoreProjects: false,
     };
+    // Utwórz referencję do TransitionGroup
+    this.transitionGroupRef = React.createRef();
   }
 
   toggleShowMoreProjects = () => {
@@ -43,9 +45,15 @@ class Projects extends Component {
           </Fade>
         </div>
         <div className="repo-cards-div-main">
-          <TransitionGroup component={null}>
+          {/* Użyj TransitionGroup z użyciem referencji */}
+          <TransitionGroup component={null} ref={this.transitionGroupRef}>
             {projectsToShow.map((project, index) => (
-              <CSSTransition key={index} timeout={500} classNames="project">
+              <CSSTransition
+                key={index}
+                timeout={500}
+                classNames="project"
+                nodeRef={this.transitionGroupRef}
+              >
                 <div className="project-wrapper">
                   <PhotoAlbum photos={[project]} theme={theme} />
                 </div>
