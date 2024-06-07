@@ -76,7 +76,7 @@ const Input = styled.input`
   margin: 5px 0;
   border: 1px solid #ddd;
   border-radius: 4px;
-  background: ${({ theme }) => theme.highlight};
+  background: ${({ theme }) => theme.body};
   color: ${({ theme }) => theme.text};
 
   &::placeholder {
