@@ -46,7 +46,7 @@ const socialMediaLinks = [
   },
   {
     name: "Gmail",
-    link: "mailto:gmail@gmail.com",
+    link: "mailto:gardenea.donice@gmail.com",
     fontawesomeicon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
     backgroundcolor: "#D14836", // Reference https://simpleicons.org/?q=gmail
   },
