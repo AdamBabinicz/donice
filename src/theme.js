@@ -125,7 +125,7 @@ export const blackTheme = {
   highlight: "#ffffff", // kolor wyróżnienia
   dark: "#000000", // kolor ciemny (opcjonalnie)
   secondaryText: "#7F8DAA", // kolor tekstu wtórnego (opcjonalnie)
-  // inne właściwości kolorów, jeśli są potrzebne
+  placeholderText: "#cccccc",
 };
 
 export const whiteTheme = {
@@ -134,7 +134,7 @@ export const whiteTheme = {
   highlight: "#ECECEC", // kolor wyróżnienia
   dark: "#00072D", // kolor ciemny (opcjonalnie)
   secondaryText: "#7F8DAA", // kolor tekstu wtórnego (opcjonalnie)
-  // inne właściwości kolorów, jeśli są potrzebne
+  placeholderText: "#888888",
 };
 
 // Wybierz domyślny motyw

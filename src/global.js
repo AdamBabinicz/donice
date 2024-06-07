@@ -12,7 +12,7 @@ export const GlobalStyles = createGlobalStyle`
     padding: 0;
     align-items: center;
     background-color: ${({ theme }) => {
-      console.log(theme.body); // Sprawdź, czy temat jest prawidłowo przekazywany
+      console.log("GlobalStyles theme.body:", theme.body); // Sprawdź, czy temat jest prawidłowo przekazywany
       return theme.body;
     }};
     color: ${({ theme }) => theme.text};
@@ -25,7 +25,13 @@ export const GlobalStyles = createGlobalStyle`
     font-family: BlinkMacSystemFont, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
     transition: all 0.25s linear;
   }
-
+  input::placeholder {
+    color: ${({ theme }) => theme.placeholderText};
+  }
+  
+  input {
+    color: ${({ theme }) => theme.text};
+  }
   a {
     color: ${({ theme }) => theme.text};
     transition: color 0.25s linear;

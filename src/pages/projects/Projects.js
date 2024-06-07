@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { Component, createRef } from "react";
 import Footer from "../../components/footer/Footer";
 import Button from "../../components/button/Button";
 import TopButton from "../../components/topButton/TopButton";
@@ -15,8 +15,7 @@ class Projects extends Component {
     this.state = {
       showMoreProjects: false,
     };
-    // Utwórz referencję do TransitionGroup
-    this.transitionGroupRef = React.createRef();
+    this.nodeRefs = []; // Array to hold refs
   }
 
   toggleShowMoreProjects = () => {
@@ -45,20 +44,23 @@ class Projects extends Component {
           </Fade>
         </div>
         <div className="repo-cards-div-main">
-          {/* Użyj TransitionGroup z użyciem referencji */}
-          <TransitionGroup component={null} ref={this.transitionGroupRef}>
-            {projectsToShow.map((project, index) => (
-              <CSSTransition
-                key={index}
-                timeout={500}
-                classNames="project"
-                nodeRef={this.transitionGroupRef}
-              >
-                <div className="project-wrapper">
-                  <PhotoAlbum photos={[project]} theme={theme} />
-                </div>
-              </CSSTransition>
-            ))}
+          <TransitionGroup component={null}>
+            {projectsToShow.map((project, index) => {
+              const nodeRef = createRef(); // Create a new ref for each project
+              this.nodeRefs[index] = nodeRef; // Store the ref in the array
+              return (
+                <CSSTransition
+                  key={index}
+                  timeout={500}
+                  classNames="project"
+                  nodeRef={nodeRef}
+                >
+                  <div className="project-wrapper" ref={nodeRef}>
+                    <PhotoAlbum photos={[project]} theme={theme} />
+                  </div>
+                </CSSTransition>
+              );
+            })}
           </TransitionGroup>
         </div>
         <Button

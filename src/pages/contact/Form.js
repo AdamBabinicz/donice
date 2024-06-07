@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import styled from "styled-components";
+import styled, { useTheme } from "styled-components";
 import emailjs from "emailjs-com";
 import { FaTimes } from "react-icons/fa";
 
@@ -30,15 +30,15 @@ const FormContainer = styled.div`
   @media (max-width: 768px) {
     padding: 15px;
     font-size: 14px;
-    height: 90%; /* Make the container take 90% of the viewport height */
-    overflow-y: auto; /* Enable vertical scrolling */
+    height: 90%;
+    overflow-y: auto;
   }
 
   @media (max-width: 480px) {
     padding: 10px;
     font-size: 12px;
-    height: 90%; /* Make the container take 90% of the viewport height */
-    overflow-y: auto; /* Enable vertical scrolling */
+    height: 90%;
+    overflow-y: auto;
   }
 `;
 
@@ -78,6 +78,10 @@ const Input = styled.input`
   border-radius: 4px;
   background: ${({ theme }) => theme.highlight};
   color: ${({ theme }) => theme.text};
+
+  &::placeholder {
+    color: ${({ theme }) => theme.placeholderText};
+  }
 
   @media (max-width: 768px) {
     padding: 8px;
@@ -158,8 +162,6 @@ const CloseButton = styled(FaTimes)`
 `;
 
 const FormSection = styled.div`
-  /* margin-bottom: 20px; */
-
   @media (max-width: 768px) {
     margin-bottom: 15px;
   }
@@ -169,7 +171,9 @@ const FormSection = styled.div`
   }
 `;
 
-const Form = ({ onClose, theme }) => {
+const Form = ({ onClose }) => {
+  const theme = useTheme();
+  console.log(theme); // Debugowanie
   const [formData, setFormData] = useState({
     name: "",
     postalCode: "",
@@ -213,8 +217,8 @@ const Form = ({ onClose, theme }) => {
 
   return (
     <Overlay>
-      <FormContainer theme={theme}>
-        <CloseButton onClick={onClose} theme={theme} />
+      <FormContainer>
+        <CloseButton onClick={onClose} />
         <Title>Formularz zamówienia</Title>
         <form onSubmit={handleSubmit}>
           <FormSection>
@@ -327,9 +331,7 @@ const Form = ({ onClose, theme }) => {
             </GroupedInput>
           </FormSection>
 
-          <Button type="submit" theme={theme}>
-            Wyślij
-          </Button>
+          <Button type="submit">Wyślij</Button>
         </form>
       </FormContainer>
     </Overlay>
