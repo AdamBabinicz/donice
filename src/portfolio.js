@@ -263,8 +263,8 @@ const skills = {
       skills: [
         "Kolejna realizacja już zdobi ogród Klientki. Tym razem zestaw 3 donic w klasycznej, ponadczasowej bieli o wymiarach 190 cm długości x 90 cm wysokości x 40 cm szerokości.",
         "Twój ogród, Twoje wymagania! Donice powstają zgodnie z Waszymi potrzebami: dowolne wymiary, różnorodne kształty, faktury i kolory. Skontaktuj się z nami, aby stworzyć donicę idealnie pasującą do Twojego tarasu, balkonu czy ogrodu!",
-        "Jesteśmy zaangażowani w ochronę środowiska. Donice produkowane przez Gardanea są wykonane z materiałów przyjaznych dla środowiska, a nasze procesy produkcyjne minimalizują negatywny wpływ na planetę. Dbamy o to, aby nasze produkty były nie tylko piękne, ale także ekologiczne. ",
-        "Jedną z największych zalet donic na zamówienie jest możliwość pełnej personalizacji. Gardanea oferuje szeroki wybór kolorów, kształtów i rozmiarów, dzięki czemu możesz stworzyć donice idealnie dopasowane do Twojego stylu i potrzeb.",
+        "Jesteśmy zaangażowani w ochronę środowiska. Donice produkowane przez Gardenea są wykonane z materiałów przyjaznych dla środowiska, a nasze procesy produkcyjne minimalizują negatywny wpływ na planetę. Dbamy o to, aby nasze produkty były nie tylko piękne, ale także ekologiczne. ",
+        "Jedną z największych zalet donic na zamówienie jest możliwość pełnej personalizacji. Gardenea oferuje szeroki wybór kolorów, kształtów i rozmiarów, dzięki czemu możesz stworzyć donice idealnie dopasowane do Twojego stylu i potrzeb.",
       ],
       softwareSkills: [
         // {
@@ -629,7 +629,7 @@ const contactPageData = {
     title: "Kontakt z nami",
     profile_image_path: "2.webp",
     description:
-      "Ciesz się ekologiczną elegancją w swoim ogrodzie dzięki skrzynkom ogrodowym od GARDANEA. Nasze produkty nie tylko pięknie ozdobią Twoją przestrzeń, ale również pomogą Ci dbać o środowisko. Dołącz do naszej misji ekologicznej i stwórz swój przydomowy raj już dziś!",
+      "Ciesz się ekologiczną elegancją w swoim ogrodzie dzięki skrzynkom ogrodowym od GARDENEA. Nasze produkty nie tylko pięknie ozdobią Twoją przestrzeń, ale również pomogą Ci dbać o środowisko. Dołącz do naszej misji ekologicznej i stwórz swój przydomowy raj już dziś!",
   },
   blogSection: {
     title: "Złóż zamówienie",
