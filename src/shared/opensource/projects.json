@@ -4,7 +4,7 @@
       "id": "repo1",
       "name": "Czas wypełnić te piękności roślinami!",
       "createdAt": "2020-03-06T16:26:54Z",
-      "url": "https://github.com/ashutosh1919/masterPortfolio",
+      "url": "",
       "description": "Szykuje się aktywny weekend, kończymy obecne realizacje i podwijamy rękawy na kolejne!",
       "isFork": false,
       "languages": [
@@ -27,7 +27,7 @@
       "id": "repo2",
       "name": "Bratki w atrakcyjnych donicach",
       "createdAt": "2021-05-10T14:22:12Z",
-      "url": "https://github.com/ashutosh1919/anotherPortfolio",
+      "url": "",
       "description": "Nawet gdy za oknem zrobi się zimno, bratki będą kwitły długo i obficie. Pochwal się swoimi pięknymi bratkami i zainspiruj innych!",
       "isFork": true,
       "languages": [
@@ -46,7 +46,7 @@
       "id": "repo3",
       "name": "Majówka czas start!",
       "createdAt": "2019-11-23T08:19:32Z",
-      "url": "https://github.com/ashutosh1919/yetAnotherPortfolio",
+      "url": "",
       "description": "Piękna pogoda zachęca do spędzania czasu na dworze. A co powiesz na urozmaicenie przestrzeni? Donice Gardenea są idealnym dodatkiem, aby jeszcze bardziej cieszyć się z każdej chwili na świeżym powietrzu.",
       "isFork": false,
       "languages": [
@@ -65,7 +65,7 @@
       "id": "repo4",
       "name": "Zastanawiasz się, jaki kolor wybrać dla donicy w swoim ogrodzie?",
       "createdAt": "2022-01-15T10:30:45Z",
-      "url": "https://github.com/ashutosh1919/extraPortfolio1",
+      "url": "",
       "description": "Kieruj się tymi zasadami: harmonia z otoczeniem, dobieranie kontrastów, zgodność kolorów, współgranie z roślinami.",
       "isFork": false,
       "languages": [
@@ -84,7 +84,7 @@
       "id": "repo5",
       "name": "Kolejna realizacja już zdobi ogród Klientki",
       "createdAt": "2023-03-11T09:20:35Z",
-      "url": "https://github.com/ashutosh1919/extraPortfolio2",
+      "url": "",
       "description": "Tym razem zestaw 3 donic w klasycznej, ponadczasowej bieli o wymiarach 190 cm długości x 90 cm wysokości x 40 cm szerokości. Nie zgadniecie co zostanie w nich posiane!",
       "isFork": false,
       "languages": [
@@ -103,7 +103,7 @@
       "id": "repo6",
       "name": "Twój ogród, Twoje wymagania!",
       "createdAt": "2023-04-22T11:11:11Z",
-      "url": "https://github.com/ashutosh1919/extraPortfolio3",
+      "url": "",
       "description": "Donice powstają zgodnie z Waszymi potrzebami: dowolne wymiary, różnorodne kształty, faktury i kolory. Skontaktuj się z nami, aby stworzyć donicę idealnie pasującą do Twojego tarasu, balkonu czy ogrodu!",
       "isFork": false,
       "languages": [
@@ -122,7 +122,7 @@
       "id": "repo7",
       "name": "Wraz z nadejściem wiosny czujemy ten przyjemny przypływ energii!",
       "createdAt": "2023-05-01T12:34:56Z",
-      "url": "https://github.com/ashutosh1919/extraPortfolio4",
+      "url": "",
       "description": "Z uwagi na zbliżające się szaleństwo wiosenne, sugerujemy, abyście złożyli zamówienie nieco wcześniej. To pozwoli nam lepiej zorganizować naszą pracę i dostarczyć Wam donice jeszcze przed pełnym sezonem!",
       "isFork": false,
       "languages": [
@@ -141,7 +141,7 @@
       "id": "repo8",
       "name": "Pierwsze dni wiosny to doskonała okazja do pielęgnacji ogrodu",
       "createdAt": "2023-06-18T14:15:16Z",
-      "url": "https://github.com/ashutosh1919/extraPortfolio5",
+      "url": "",
       "description": "Od czego warto zacząć?  Przycinanie roślin, planowanie rozmieszczenia, nawożenie.",
       "isFork": false,
       "languages": [
@@ -160,7 +160,7 @@
       "id": "repo9",
       "name": "Donice o niecodziennym kształcie",
       "createdAt": "2023-07-07T10:10:10Z",
-      "url": "https://github.com/ashutosh1919/extraPortfolio6",
+      "url": "",
       "description": "Donice Gardenea mogą pełnić wiele funkcji – idealnie nadają się do ukrycia mniej atrakcyjnych części ogrodu), ale również można je wykorzystać do stworzenia pięknych, zielonych oaz w każdej przestrzeni",
       "isFork": false,
       "languages": [
@@ -174,6 +174,26 @@
         }
       ],
       "image": "../../assests/images/9.jpg"
+    },
+
+    {
+      "id": "repo10",
+      "name": "Nowy projekt donic w minimalistycznym stylu",
+      "createdAt": "2023-08-12T09:45:30Z",
+      "url": "",
+      "description": "Nowoczesne, minimalistyczne donice idealne do każdego ogrodu lub tarasu. Zaprojektowane z myślą o prostocie i elegancji.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "TypeScript",
+          "iconifyClass": "logos-typescript"
+        },
+        {
+          "name": "React",
+          "iconifyClass": "logos-react"
+        }
+      ],
+      "image": "../../assests/images/7.png"
     }
   ]
 }
