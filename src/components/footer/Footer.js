@@ -9,7 +9,7 @@ export default function Footer(props) {
     <div className="footer-div">
       <Fade>
         <p className="footer-text" style={{ color: props.theme.secondaryText }}>
-          Radom <span role="img">🌼</span> {greeting.title} 2023 -&nbsp;
+          Radom <span role="img">🌼</span> {greeting.title}&reg; 2023 -&nbsp;
           {new Date().getFullYear()}.
         </p>
 
