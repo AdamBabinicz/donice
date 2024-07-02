@@ -194,6 +194,25 @@
         }
       ],
       "image": "../../assests/images/7.png"
+    },
+    {
+      "id": "repo11",
+      "name": "Widok donic Gardenea w Waszych ogrodach",
+      "createdAt": "2024-06-30T15:40:50Z",
+      "url": "",
+      "description": "Zdjęcia przesłane przez jedną z naszych klientek utwierdzają nas w przekonaniu, że nasze produkty będą służyły przez lata, dodając uroku każdemu zakątkowi.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Rust",
+          "iconifyClass": "logos-rust"
+        },
+        {
+          "name": "Rocket",
+          "iconifyClass": "logos-rocket"
+        }
+      ],
+      "image": "../../assests/images/10.jpg"
     }
   ]
 }
